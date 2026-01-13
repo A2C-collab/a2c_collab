@@ -45,5 +45,11 @@ pip install -r requirements.txt
 ```
 python run_dialog.py --task cabinet -llm Llama-3.1-70B-Instruct --skip_display
 python run_dialog.py --task sort -llm Llama-3.1-70B-Instruct --skip_display
+python run_dialog.py --task sweep -llm Llama-3.1-70B-Instruct --skip_display
+python run_dialog.py --task rope -llm Llama-3.1-70B-Instruct --skip_display
+python run_dialog.py --task sandwich -llm Llama-3.1-70B-Instruct --skip_display
 ```
+
+###Model change
+Please check the model_manager.py to change the default model as we have listed in the main paper
 
